@@ -8,6 +8,7 @@ int main(){
     int z;
     int y=i+x;
     cout<<y<< endl;
+    thisDoesNotExist();
 
     return 0;
 }
