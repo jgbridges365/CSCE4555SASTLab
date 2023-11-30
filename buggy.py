@@ -8,6 +8,7 @@ def unreachable_code():
 
 def insecure_input():
     user_input = eval(input("Enter a value: "))  # Intentionally using eval with input
+    print(user_input)
 
 def infinite_loop():
     while True:
